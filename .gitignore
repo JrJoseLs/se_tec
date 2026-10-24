@@ -1,0 +1,7 @@
+node_modules
+dist
+.env.local
+.env.*.local
+.admin-backups
+*.log
+.DS_Store

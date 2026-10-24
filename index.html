@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es" data-theme="claro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seshat Technologies · Cada registro cuenta.</title>
+    <meta name="description" content="Software que pone orden en negocios e instituciones: facturación con NCF, reportes DGII, automatizaciones y plataformas a medida." />
+    <meta name="theme-color" content="#1e3a6e" />
+    <meta property="og:title" content="Seshat Technologies" />
+    <meta property="og:description" content="Cada registro cuenta." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('seshat-tema');
+          if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'oscuro' : 'claro';
+          document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

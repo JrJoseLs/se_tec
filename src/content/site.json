@@ -1,0 +1,279 @@
+{
+  "site": {
+    "name": "Seshat Technologies",
+    "short": "Seshat",
+    "tagline": "Cada registro cuenta.",
+    "description": "Software que pone orden en negocios e instituciones: facturación con NCF, reportes DGII, automatizaciones y plataformas a medida.",
+    "email": "hola@seshat.tech",
+    "location": "República Dominicana",
+    "social": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/seshat.tech/"
+      },
+      {
+        "label": "LinkedIn",
+        "url": ""
+      },
+      {
+        "label": "GitHub",
+        "url": ""
+      }
+    ]
+  },
+  "hero": {
+    "kicker": "Software · República Dominicana",
+    "title": "El orden que tu negocio necesita.",
+    "subtitle": "Construimos software que registra, mide y automatiza, para que tú te ocupes de crecer y no de las hojas de Excel.",
+    "ctaPrimary": "Ver proyectos",
+    "ctaSecondary": "Hablemos"
+  },
+  "projects": [
+    {
+      "id": "myneg",
+      "slug": "myneg",
+      "name": "MyNeg",
+      "kicker": "Caja, inventario y e-CF",
+      "tagline": "Tu negocio, en orden. Hasta sin internet.",
+      "summary": "Sistema de caja, inventario y facturación electrónica para negocios dominicanos. Vende con comprobante fiscal, controla el fiado y ve las ganancias del día desde el celular.",
+      "description": "MyNeg ya está en producción y lo usan negocios reales todos los días.\n\nLa caja cobra en efectivo, tarjeta, transferencia o fiado, con lector de código, impresora térmica y cajón. Si se cae el internet, sigue vendiendo y sube todo cuando vuelve la conexión.\n\nEmite comprobantes electrónicos firmados y los envía a la DGII, con contingencia automática. El ITBIS y los formatos 606 y 607 salen de lo que ya registraste.",
+      "highlights": [
+        "Caja con efectivo, tarjeta, transferencia y fiado",
+        "Sigue vendiendo sin internet",
+        "Facturación electrónica e-CF con la DGII",
+        "Inventario con pedido sugerido y conteo con escáner",
+        "ITBIS y formatos 606 y 607",
+        "Sucursales, delivery, mesas, taller y nómina"
+      ],
+      "audience": "Colmados, tiendas, boutiques, ferreterías, restaurantes, farmacias, autorepuestos y talleres.",
+      "status": "activo",
+      "progress": 100,
+      "accent": "lapis",
+      "image": "",
+      "featured": true,
+      "visible": true,
+      "links": [
+        {
+          "label": "Sitio de MyNeg",
+          "url": "https://myneg.duckdns.org/"
+        }
+      ]
+    },
+    {
+      "id": "ascenso",
+      "slug": "ascenso",
+      "name": "Ascenso",
+      "kicker": "Gestión de competencias",
+      "tagline": "Boletines e informes que se publican solos.",
+      "summary": "Plataforma para organizar competencias por equipos y divisiones. Publica boletines de resultados e informes con un enlace público, sin exponer el sistema interno.",
+      "description": "Ascenso lleva el registro de cada ronda: equipos, divisiones, puntajes y participación de cada integrante.\n\nLo que se comparte con el público son páginas de solo lectura, como el boletín de cada ronda y el informe final. El panel donde se administra todo queda privado.",
+      "highlights": [
+        "Boletines por ronda y división",
+        "Posiciones por puntaje acumulado",
+        "Informes públicos por enlace",
+        "Panel de administración privado"
+      ],
+      "audience": "Organizadores de competencias académicas y por equipos.",
+      "status": "beta",
+      "progress": 75,
+      "accent": "fayenza",
+      "image": "",
+      "featured": false,
+      "visible": true,
+      "links": [
+        {
+          "label": "Boletines · CNEES 2026",
+          "url": "https://asencm.duckdns.org/p/jbaq4RWIeIpJRNWX8kVStJZz"
+        },
+        {
+          "label": "Informe · CNEES 2026",
+          "url": "https://asencm.duckdns.org/p/sCxJn6ztqGAQZfPrandXQSxC"
+        }
+      ]
+    },
+    {
+      "id": "competencias",
+      "slug": "competencias",
+      "name": "Competencias",
+      "kicker": "Comparador académico",
+      "tagline": "Datos lado a lado para decidir mejor.",
+      "summary": "Compara competencias por clase, maestro, carrera y estudiante, para ver con claridad dónde se avanza y dónde hace falta apoyo.",
+      "description": "Un comparador que ordena los resultados académicos y los pone frente a frente.\n\nEn lugar de revisar hojas sueltas, cada nivel (clase, maestro, carrera o estudiante) se compara con los demás en una sola vista.",
+      "highlights": [
+        "Comparación por clase y por maestro",
+        "Vista por carrera",
+        "Seguimiento por estudiante"
+      ],
+      "audience": "Instituciones educativas.",
+      "status": "desarrollo",
+      "progress": 55,
+      "accent": "oro",
+      "image": "",
+      "featured": false,
+      "visible": true,
+      "links": [
+        {
+          "label": "Ver el comparador",
+          "url": "https://ppcompetencia.duckdns.org"
+        }
+      ]
+    },
+    {
+      "id": "simus",
+      "slug": "simus",
+      "name": "Simus",
+      "kicker": "Simulador de negocios",
+      "tagline": "Practicar la empresa antes de arriesgarla.",
+      "summary": "Un simulador de negocios para tomar decisiones de empresa en un entorno seguro y ver sus consecuencias.",
+      "description": "Simus está en desarrollo.\n\nCuando esté listo para mostrarse, aparecerá aquí con todos sus detalles.",
+      "highlights": [],
+      "audience": "",
+      "status": "desarrollo",
+      "progress": 35,
+      "accent": "terracota",
+      "image": "",
+      "featured": false,
+      "visible": true,
+      "links": []
+    }
+  ],
+  "services": [
+    {
+      "id": "dgii",
+      "icon": "receipt",
+      "title": "Facturación y DGII",
+      "text": "Facturas con NCF, ITBIS al día y reportes 606, 607 y 608 que se generan solos."
+    },
+    {
+      "id": "medida",
+      "icon": "code",
+      "title": "Software a medida",
+      "text": "Sistemas pensados para tu operación, con una arquitectura que aguanta el crecimiento."
+    },
+    {
+      "id": "flujo",
+      "icon": "workflow",
+      "title": "Automatizaciones",
+      "text": "Procesos que se conectan y tareas repetitivas que dejan de depender de alguien."
+    },
+    {
+      "id": "datos",
+      "icon": "chart",
+      "title": "Datos y reportes",
+      "text": "Tableros claros para ver cómo va el negocio sin abrir diez archivos."
+    },
+    {
+      "id": "web",
+      "icon": "layers",
+      "title": "Plataformas web",
+      "text": "Portales, sistemas institucionales y aplicaciones que se usan desde cualquier lugar."
+    },
+    {
+      "id": "consultoria",
+      "icon": "compass",
+      "title": "Consultoría",
+      "text": "Antes de escribir código, medimos y trazamos. Como Seshat con la cuerda."
+    }
+  ],
+  "about": {
+    "kicker": "Origen",
+    "title": "Una escriba, no un vendedor.",
+    "text": "En el antiguo Egipto, Seshat era la diosa de la escritura, la medición y los registros. Llevaba las cuentas del reino y trazaba los cimientos de cada templo. Nosotros hacemos lo mismo por tu negocio.",
+    "pillars": [
+      {
+        "id": "medir",
+        "icon": "ruler",
+        "title": "Medimos",
+        "text": "Entendemos cómo trabaja tu negocio antes de proponer nada."
+      },
+      {
+        "id": "registrar",
+        "icon": "pen",
+        "title": "Registramos",
+        "text": "Cada factura, cada movimiento, en su lugar y fácil de encontrar."
+      },
+      {
+        "id": "automatizar",
+        "icon": "workflow",
+        "title": "Automatizamos",
+        "text": "Lo repetitivo pasa solo. Tú te quedas con las decisiones."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hablemos de tu negocio.",
+    "text": "Cuéntanos qué quieres ordenar. Te respondemos con una propuesta clara, sin letra pequeña."
+  },
+  "clients": [
+    {
+      "id": "cnees",
+      "name": "CNEES 2026",
+      "system": "ascenso",
+      "sector": "Competencia estudiantil",
+      "city": "República Dominicana",
+      "since": "2026",
+      "url": "",
+      "logo": "",
+      "visible": true
+    },
+    {
+      "id": "ej-1",
+      "name": "Colmado de ejemplo",
+      "system": "myneg",
+      "sector": "Colmado",
+      "city": "Santo Domingo",
+      "since": "2026",
+      "url": "",
+      "logo": "",
+      "visible": false
+    },
+    {
+      "id": "ej-2",
+      "name": "Ferretería de ejemplo",
+      "system": "myneg",
+      "sector": "Ferretería",
+      "city": "Santiago",
+      "since": "2026",
+      "url": "",
+      "logo": "",
+      "visible": false
+    },
+    {
+      "id": "ej-3",
+      "name": "Boutique de ejemplo",
+      "system": "myneg",
+      "sector": "Boutique",
+      "city": "La Romana",
+      "since": "2026",
+      "url": "",
+      "logo": "",
+      "visible": false
+    },
+    {
+      "id": "ej-4",
+      "name": "Farmacia de ejemplo",
+      "system": "myneg",
+      "sector": "Farmacia",
+      "city": "San Cristóbal",
+      "since": "2026",
+      "url": "",
+      "logo": "",
+      "visible": false
+    },
+    {
+      "id": "ej-5",
+      "name": "Colegio de ejemplo",
+      "system": "competencias",
+      "sector": "Educación",
+      "city": "Santo Domingo",
+      "since": "2026",
+      "url": "",
+      "logo": "",
+      "visible": false
+    }
+  ],
+  "clientsSection": {
+    "title": "Negocios que ya llevan sus registros con nosotros.",
+    "text": "Cada cliente, el sistema que usa y desde cuándo. Elige un sistema para ver quién lo usa."
+  }
+}
