@@ -124,18 +124,29 @@
       "slug": "simus",
       "name": "Simus",
       "kicker": "Simulador de negocios",
-      "tagline": "Practicar la empresa antes de arriesgarla.",
-      "summary": "Un simulador de negocios para tomar decisiones de empresa en un entorno seguro y ver sus consecuencias.",
-      "description": "Simus está en desarrollo.\n\nCuando esté listo para mostrarse, aparecerá aquí con todos sus detalles.",
-      "highlights": [],
-      "audience": "",
+      "tagline": "Dirige una empresa. Compite. Aprende.",
+      "summary": "Economía viva, competidores con IA y una empresa en 3D que crece con cada decisión de tu equipo.",
+      "description": "En Simus, cada equipo dirige su propia empresa: produce, vende, invierte y compite contra otros equipos y contra rivales manejados por IA.\n\nLa empresa se ve en 3D y crece con cada decisión. Hay accesos para administradores, decanos, profesores y estudiantes, pensado para usarse en instituciones educativas.",
+      "highlights": [
+        "Producción y logística",
+        "Finanzas y bolsa",
+        "Mercados por región",
+        "Competidores con IA adaptativa",
+        "Empresa en 3D que crece con cada decisión"
+      ],
+      "audience": "Universidades, colegios y programas de emprendimiento.",
       "status": "desarrollo",
       "progress": 35,
       "accent": "terracota",
-      "image": "",
+      "image": "uploads/simus.webp",
       "featured": false,
       "visible": true,
-      "links": []
+      "links": [
+        {
+          "label": "Ver la demo",
+          "url": "https://sim-neg.simus.workers.dev/demo/jsarhkKABJ9cPVq8XS"
+        }
+      ]
     }
   ],
   "services": [
