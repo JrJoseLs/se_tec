@@ -1,7 +1,7 @@
 import { Canvas, useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { STATUS } from '../lib/content.js';
+import { STATUS, asset } from '../lib/content.js';
 
 /*
  * Galería 3D de proyectos: cada proyecto es una lámina (como una tablilla de
@@ -120,6 +120,25 @@ function drawCard(p, pal) {
   const tex = new THREE.CanvasTexture(c);
   tex.colorSpace = THREE.SRGBColorSpace;
   tex.anisotropy = 8;
+
+  // Con portada, la imagen reemplaza la composición generada (que queda mientras carga).
+  if (p.image) {
+    const img = new Image();
+    img.decoding = 'async';
+    img.onload = () => {
+      const scale = Math.max(TEX_W / img.width, artH / img.height);
+      const w = img.width * scale;
+      const hh = img.height * scale;
+      ctx.save();
+      ctx.beginPath();
+      ctx.rect(0, 0, TEX_W, artH);
+      ctx.clip();
+      ctx.drawImage(img, (TEX_W - w) / 2, 0, w, hh);
+      ctx.restore();
+      tex.needsUpdate = true;
+    };
+    img.src = asset(p.image);
+  }
   return tex;
 }
 

@@ -49,7 +49,7 @@
       "status": "activo",
       "progress": 100,
       "accent": "lapis",
-      "image": "",
+      "image": "uploads/myneg.webp",
       "featured": true,
       "visible": true,
       "links": [
@@ -77,17 +77,17 @@
       "status": "beta",
       "progress": 75,
       "accent": "fayenza",
-      "image": "",
+      "image": "uploads/ascenso.webp",
       "featured": false,
       "visible": true,
       "links": [
         {
-          "label": "Boletines · CNEES 2026",
-          "url": "https://asencm.duckdns.org/p/jbaq4RWIeIpJRNWX8kVStJZz"
+          "label": "Boletines (ejemplo)",
+          "url": "https://asencm.duckdns.org/p/p0iV-M5UeuhLK0pE4iKbLcH8"
         },
         {
-          "label": "Informe · CNEES 2026",
-          "url": "https://asencm.duckdns.org/p/sCxJn6ztqGAQZfPrandXQSxC"
+          "label": "Informe (ejemplo)",
+          "url": "https://asencm.duckdns.org/p/rxNCXyu2WmbUVjQOSFrmIRKE"
         }
       ]
     },
@@ -96,19 +96,20 @@
       "slug": "competencias",
       "name": "Competencias",
       "kicker": "Comparador académico",
-      "tagline": "Datos lado a lado para decidir mejor.",
-      "summary": "Compara competencias por clase, maestro, carrera y estudiante, para ver con claridad dónde se avanza y dónde hace falta apoyo.",
+      "tagline": "Competencias, a la vista.",
+      "summary": "Cada clase, cada equipo y cada estudiante en un solo lugar. Compara, encuentra a quien necesita apoyo y decide con datos.",
       "description": "Un comparador que ordena los resultados académicos y los pone frente a frente.\n\nEn lugar de revisar hojas sueltas, cada nivel (clase, maestro, carrera o estudiante) se compara con los demás en una sola vista.",
       "highlights": [
-        "Comparación por clase y por maestro",
-        "Vista por carrera",
-        "Seguimiento por estudiante"
+        "Comparación por clase, maestro, carrera y estudiante",
+        "Gráficos araña para comparar en segundos",
+        "Cada persona ve solo lo que le corresponde",
+        "Del Excel a conclusiones claras"
       ],
       "audience": "Instituciones educativas.",
       "status": "desarrollo",
       "progress": 55,
       "accent": "oro",
-      "image": "",
+      "image": "uploads/competencias.webp",
       "featured": false,
       "visible": true,
       "links": [

@@ -833,3 +833,8 @@ button.pcard {
     stroke-dashoffset: 0;
   }
 }
+
+/* portadas reales: mostrar la parte de arriba de la captura */
+.art-img img {
+  object-position: top center;
+}
